@@ -24,7 +24,16 @@ hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
   print(hotels.index("Radisson"))
 
 # 7. Add another "Taj" and count how many times it appears.
-# 8. Sort the hotels alphabetically.
+  print(hotels.count('Taj'))
+# 
+8. Sort the hotels alphabetically.
+  hotels.sort()
+  print(hotels)
+  
 # 9. Reverse the hotel list.
+  hotels.sort(reverse = True)
+  print(hotels)
+  
 # 10. Copy the list into another variable and display both lists.
-
+  old=hotels
+  print(old)
