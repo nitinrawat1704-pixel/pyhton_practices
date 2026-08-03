@@ -163,3 +163,39 @@ for i in cities:
 for i in cities:
   if i =='Delhi' or i=='Mumbai':print("metro city")
   else:print("non metro city")
+
+---------------------------------------
+$$Arithmetic function with list$$
+marks = (78, 45, 89, 92, 67, 45)
+
+-------------------------
+
+# 1. Display all marks.
+print(marks)
+# 2. Display the highest mark.
+print(max(marks))
+# 3. Display the lowest mark.
+print(min(marks))
+# 4. Count how many times 45 appears.
+print(marks.count(45))
+# 5. Find the index of 92.
+print(marks.index(92))
+# 6. Display only passing marks (>=35).
+for i in marks:
+  if i>=35:print(i)
+  else:continue 
+# 7. Count students scoring above 75.
+c=0
+for i in marks:
+  if i >75:
+    c+=1 
+  else:continue 
+print(c,"people has marks more than 75") 
+# 8. Display marks greater than 80.
+for i in marks:
+  if i>80:print(i)
+  else:continue
+# 9. Display the total number of marks.
+print(sum(marks))
+# 10. Display all marks using a loop.
+for i in marks:print(i)
