@@ -1,4 +1,4 @@
-# List of Hotels
+# List of Hotels  $$Basic list function$$
 hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
 
 # 1. Display the complete list of hotels.
@@ -40,7 +40,7 @@ hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
 
 
 
-# Shopping Cart
+# Shopping Cart $$list with adding,removing and fetching index values $$
 
 cart = ["Laptop", "Mouse", "Keyboard", "Monitor", "Mouse"]
 
@@ -72,3 +72,32 @@ print(back_up)
 # 10. Empty the cart.
 cart.clear()
 print(cart)
+
+
+#fruit cart $$List using loop$$
+fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+----------------------------------------------------------------
+ 
+
+# 1. Display all fruits using a loop.
+for i in fruits:print(i)
+# 2. Print only the fruit "Mango".
+for i in fruits:
+  if i =='Mango':print(i)
+  else:
+      continue
+# 3. Print all fruits except "Banana".
+for i in fruits:
+  if i=="Banana":
+    continue
+  else:print(i) 
+
+# 4. Print fruits whose name length is greater than 5.
+for i in fruits:
+  if len(i)>5:print(i)
+  else:
+      continue
+# 5. Print "Available" if the fruit is "Apple", otherwise print "Not Apple".
+if "Apple" in fruits:print("Available") 
+else:print("Not Available") 
+
