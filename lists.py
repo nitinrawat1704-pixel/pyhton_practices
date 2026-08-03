@@ -9,9 +9,20 @@ hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
   for i in hotels: print(i)
 
 # 3. Insert "Le Meridien" at index 2.
+  hotels.insert(2,"Le Meridien")
+ for i in hotels: print(i)
+   
 # 4. Remove "Hyatt" from the list.
+  hotels.remove('Hyatt')
+  for i in hotels: print(i)
+
 # 5. Remove the last hotel and display it.
+  hotels.pop()
+  for i in hotels: print(i)
+
 # 6. Find the index of "Radisson". 
+  print(hotels.index("Radisson"))
+
 # 7. Add another "Taj" and count how many times it appears.
 # 8. Sort the hotels alphabetically.
 # 9. Reverse the hotel list.
