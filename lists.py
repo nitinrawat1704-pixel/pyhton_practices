@@ -101,3 +101,32 @@ for i in fruits:
 if "Apple" in fruits:print("Available") 
 else:print("Not Available") 
 
+
+
+------------------------------------------
+$$List using loop$$
+marks = [45, 78, 32, 90, 65]
+
+------------------------------------ 
+
+# 1. Display all marks.
+print(marks)
+# 2. Print only passing marks (>=35).
+for i in marks:
+  if i>=35:print(i)
+  else:continue 
+# 3. Print only failing marks (<35).
+for i in marks:
+  if i<35:print(i)
+  else:continue 
+# 4. Print "Excellent" if marks are greater than 80.
+for i in marks:
+  if i>80:print("Excellent")
+  else:continue   
+# 5. Count how many students passed
+count=0
+for i in marks:
+  if i>=35:
+    count+=1
+  else:continue 
+print(count,"student has passed")
