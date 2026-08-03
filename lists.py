@@ -130,3 +130,36 @@ for i in marks:
     count+=1
   else:continue 
 print(count,"student has passed")
+
+
+-------------------------------------------------------------------
+$$slicing$$
+cities = ("Delhi", "Mumbai", "Chennai", "Jaipur", "Pune")
+
+------------------------------------------------------------------- 
+
+# 1. Display all cities.
+print(cities)
+# 2. Display the first city.
+print(cities[0])
+# 3. Display the last city.
+print(cities[-1])
+# 4. Display cities from index 1 to 3.
+print(cities[0:3])
+# 5. Check whether "Delhi" is present.
+if "Delhi" in cities:print('found')
+else:print('not found')
+# 6. Find the index of "Jaipur".
+print(cities.index('Jaipur'))
+# 7. Display the total number of cities.
+print(len(cities))
+# 8. Display each city using a loop.
+for i in cities:print(i)
+# 9. Print only cities having more than 5 letters.
+for i in cities:
+  if len(i)>5:print(i)
+  else:continue
+# 10. Print "Metro City" if the city is Delhi or Mumbai.
+for i in cities:
+  if i =='Delhi' or i=='Mumbai':print("metro city")
+  else:print("non metro city")
