@@ -1,8 +1,13 @@
 # List of Hotels
 hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
+
 # 1. Display the complete list of hotels.
   for i in hotels:print(i)
+
 # 2. Add "ITC" at the end of the list.
+  hotels.append('ITC')
+  for i in hotels: print(i)
+
 # 3. Insert "Le Meridien" at index 2.
 # 4. Remove "Hyatt" from the list.
 # 5. Remove the last hotel and display it.
