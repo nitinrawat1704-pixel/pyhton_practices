@@ -38,6 +38,9 @@ hotels = ["Taj", "Oberoi", "Radisson", "Hyatt", "Marriott"]
   old=hotels
   print(old)
 
+#11 show value of hotel with it index.
+for index,i in enumerate(hotels)
+  print(index,i)
 
 
 # Shopping Cart $$list with adding,removing and fetching index values $$
