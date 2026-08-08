@@ -51,3 +51,19 @@ for name,sal in employees.items():
    print(name)
    
   else: continue 
+
+
+#Find employees earning above average salary
+employees = {
+    "Nitin": 90000,
+    "Ankit": 85000,
+    "Amit": 65000,
+    "Priya": 95000,
+    "Rahul": 72000
+}
+a=int(sum(employees.values())/(len(employees.values())))
+print("average is :",a)
+print("employee with sal greater than avg:")
+for name,sal in employees.items():
+  if sal>a:print(name,sal)
+  else:continue
