@@ -67,3 +67,12 @@ print("employee with sal greater than avg:")
 for name,sal in employees.items():
   if sal>a:print(name,sal)
   else:continue
+
+
+#find the email of employe by it name
+Employee={101:["Ajay","Ajay@gmail.com",20000],102:["sachin","sachin@gmail.com,",90000]}
+a=input("enter name")
+for k,v in Employee.items():
+   if a == v[0]:
+    print(v[1])
+   else:continue
