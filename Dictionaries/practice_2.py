@@ -13,7 +13,7 @@
    print(student)
 4. student.update({"marks": 85})
    print(student)
-5. student["email"] = "rahul@gmail.com"
+5. student["email"]=student["name"]+"@gmail.com"
    print(student)
 6.student.pop("age")
   print(student) 
