@@ -10,6 +10,8 @@
 10.Take two numbers and print all numbers divisible by 6 between them.
 11.Take two numbers and print all numbers that are even and divisible by 6.
 12.Take two numbers and print all numbers that are odd and divisible by 3.
+13.Find the factorial of a given number.
+14.Print the first 10 multiples of a given number.
 
 1
 for i in range(1,11,1):print(i)  
@@ -77,5 +79,15 @@ for i in range(a,b+1,1):
   if i%2!=0 and i%3==0:
     print(i)
 
+13
+c=1
+a=int(input("enter a no"))
+for i in range(1,a+1,1):
+  c=c*i
+print(c)  
 
+14
+a=int(input("enter a no"))
+for i in range(1,11,1):
+  print(a*i)
   
