@@ -50,12 +50,12 @@ if a>=21:print("eligible")
 else:print("not eligible")
 
 8
+a=int(input("enter marks"))
 if a>80:print("A grade")
-elif a>60 and a<80:print("B grade")
-if a>=80:print("A grade")
-elif a>=60 and a<80:print("B grade")
-elif a>=40 and a<60:print("C grade")
+elif a>60:print("B grade")
+elif a>=40:print("C grade")
 else:print("fail")
+
 
 9
 a=int(input("enter year"))
