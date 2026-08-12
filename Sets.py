@@ -25,4 +25,24 @@ print(ratings)
 if 5 in ratings:print("found")
 else:("not found")
   
-  
+5.
+print(s.union(r))
+
+6
+print(s.intersection(r))
+
+7
+print(s.difference(r))  
+
+8.
+It removes the duplicate
+
+9.
+first={"nathan","drake","dani","eli"}
+second={"nathan","eli"}
+print(first.intersection(second))
+
+10.
+first={"nathan","drake","dani","eli"}
+second={"nathan","eli"}
+print(first.difference(second))
