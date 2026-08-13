@@ -59,3 +59,22 @@ plt.grid()                                                 #for more defined bac
 
 plt.scatter(tree,pollution,marker="*",color="purple")       #.scatter for ploting scatter plot chart
 plt.show()
+
+-------------------------------Histogram----------------------------------------------
+
+import matplotlib.pyplot as plt
+exp=[3,2,3,1,3,5,3,2,1,2,3,5,4]
+plt.hist(exp,bins=5)                                       #.hist for histogram 
+plt.show()
+
+--------------------------pie chart----------------------------------------------------
+
+import matplotlib.pyplot as plt
+player=["Haland","Neymar","Messi","Ronaldo"]
+goals=[10,50,65,150]
+
+plt.pie(goals,labels=player)                             #.pie for pie chart (here column that consists no will come first then the column will be second with "labels=" )
+#plt.pie(goals,labels=player,autopct="%1.1f%%") upgrade    (to see percentage)
+plt.show()
+
+
