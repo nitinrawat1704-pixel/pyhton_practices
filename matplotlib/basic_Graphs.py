@@ -42,3 +42,20 @@ plt.ylabel("goals")
 
 plt.barh(player,goals,color="blue")         #.barh for ploting horizontal bar chart
 plt.show()
+
+
+
+-------------------------------Scatter plot-----------------------------------
+
+import matplotlib.pyplot as plt
+tree=[100,200,350,600]
+pollution=[100,50,20,5]
+
+plt.title("trees vs pollution")
+plt.xlabel("no of trees")
+plt.ylabel("pollution")
+plt.grid()                                                 #for more defined background for graph
+
+
+plt.scatter(tree,pollution,marker="*",color="purple")       #.scatter for ploting scatter plot chart
+plt.show()
