@@ -186,4 +186,11 @@ df = pd.DataFrame(data)
 7.print(df[df["Gender"] == "Female"])
 
 8.print(df[df["Income"] < 50000])
- 
+
+9.print(df[df["Loan_Amount"] == 5000])
+
+10.print(df[(df["Age"] > 30) & (df["Loan_Status"]=="Approved")])
+
+11.print(df[(df["Employment_Type"] == "Salaried") & (df["Gender"]=="Male")])
+
+12.print(df[(df["Loan_Amount"] > 400000) & (df["Credit_Score"]>780)]) 
