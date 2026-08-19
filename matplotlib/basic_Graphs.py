@@ -78,3 +78,11 @@ plt.pie(goals,labels=player)                             #.pie for pie chart (he
 plt.show()
 
 
+-----------------------------Box plot-----------------------
+import matplotlib.pyplot as plt
+
+goals=[10,50,65,1500]
+
+plt.ylabel("No of goals")                                       #to find outliner
+plt.boxplot(goals)
+plt.show()
