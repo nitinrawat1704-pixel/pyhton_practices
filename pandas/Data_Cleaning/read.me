@@ -1,0 +1,69 @@
+
+# Pandas Data Cleaning
+
+This folder contains my practice exercises for **data cleaning using Pandas**.
+
+The goal is to learn how to identify, standardize, clean, and handle common problems found in real-world datasets.
+
+## Topics Covered
+
+### 1. Handling Missing Values
+
+* Identifying missing values using `isnull()` and `isna()`
+* Counting missing values
+* Replacing missing values using `fillna()`
+* Filling missing numerical values using `mean()`
+
+### 2. Standardizing Invalid Values
+
+Handling different representations of missing or invalid data such as:
+
+* `"Unknown"`
+* `"Error"`
+* `"N/A"`
+* `"Not Available"`
+
+Using `replace()` to standardize them into a common value.
+
+### 3. Converting Data Types
+
+Using:
+
+* `pd.to_numeric()`
+* `errors="coerce"`
+* `astype()`
+
+to convert columns into the appropriate data types.
+
+### 4. Handling NaN After Conversion
+
+Using `errors="coerce"` to convert invalid numerical values into `NaN`, then handling them with `fillna()`.
+
+## Data Cleaning Workflow
+
+```text
+Raw Data
+   ↓
+Identify missing / invalid values
+   ↓
+Standardize inconsistent values
+   ↓
+Convert columns to correct data types
+   ↓
+Convert invalid numeric values to NaN
+   ↓
+Handle missing values
+   ↓
+Clean Dataset
+```
+
+## Files
+
+| File                                           | Concepts Practiced                                                              |
+| ---------------------------------------------- | ------------------------------------------------------------------------------- |
+| `handling_null_values.py`                      | `isnull()`, `fillna()`, `mean()`                                                |
+| `standardizing_and_handling_invalid_values.py` | `value_counts()`, `replace()`, `pd.to_numeric()`, `errors="coerce"`, `fillna()` |
+
+## Goal
+
+Build a strong foundation in **Pandas data cleaning** as part of my Data Analytics learning journey.
