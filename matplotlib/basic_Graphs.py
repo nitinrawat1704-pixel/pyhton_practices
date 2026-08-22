@@ -86,3 +86,14 @@ goals=[10,50,65,1500]
 plt.ylabel("No of goals")                                       #to find outliner
 plt.boxplot(goals)
 plt.show()
+
+
+
+import matplotlib.pyplot as plt
+
+sales_sal = [10000, 20000, 150000, 30000]
+hr_sal = [25000, 35000, 45000, 6000]
+
+plt.boxplot([sales_sal, hr_sal], labels=["Sales", "HR"])
+
+plt.show()
