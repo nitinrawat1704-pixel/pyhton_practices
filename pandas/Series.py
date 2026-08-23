@@ -33,4 +33,12 @@ print(s1.value_counts())
 
 #print(s1)
 
+sales=[300,500,700,700,800,900,200,100,400,600]
+
+salesS1=pd.Series(sales)
+
+print(salesS1[salesS1>300].count())
+
+
+
 
