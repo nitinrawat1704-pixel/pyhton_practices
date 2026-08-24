@@ -45,7 +45,7 @@ plt.barh(player,goals,color="blue")         #.barh for ploting horizontal bar ch
 plt.show()
 
 
-
+df.groupby(["City","Gender"])["Price"].sum().plot(kind="bar")  #groupby
 -------------------------------Scatter plot-----------------------------------
 
 import matplotlib.pyplot as plt
