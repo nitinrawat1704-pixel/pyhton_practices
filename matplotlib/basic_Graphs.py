@@ -15,6 +15,7 @@ plt.plot(player,goals)                          #.plot for ploting line graph
 #plt.plot(player,goals,marker="*",color="blue") #upgrade 2
 plt.show()
 
+df.groupby("City")["Price"].sum().plot() #using group by
 
 ------------------------------bar chart--------------------------------
 
