@@ -154,6 +154,8 @@ plt.ylabel("goals")
 
 plt.bar(player,goals,color="blue")         #.bar for ploting bar chart
 plt.show()
+
+
 -----------------
 data = {
 
@@ -280,6 +282,11 @@ data = {
 import pandas as pd
 df=pd.DataFrame(data)
 df.groupby(["City","Gender"])["Price"].sum().plot(kind="bar")  #groupby
+
+df.groupby("City").agg(
+    sum_s=("Price","sum"),
+    count_gender=("Gender","count")                   
+).plot(kind="bar")
 ----------------------------------h bar------------------------------------
 
 import matplotlib.pyplot as plt
