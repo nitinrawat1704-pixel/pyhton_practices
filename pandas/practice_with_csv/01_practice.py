@@ -124,3 +124,52 @@ print(df[df["Order_Status"]=="Cancelled"][["Customer_Name","Product","Order_Stat
 
 # 30.	Display Customer_Name, Product, and Price for Female customers.
 print(df[df["Gender"]=="Female"][["Customer_Name","Product","Price"]])
+
+#Level 6 — Multiple Conditions
+
+# 31.	Find customers who are from Delhi AND Age > 30.
+print(df[(df['City']=="Delhi") &(df['Age']>30)])
+
+# 32.	Find customers who are from Mumbai OR Pune.
+print(df[(df['City']=="Mumbai") | (df['City']=="Pune")])
+
+# 33.	Find products where Price > 10,000 AND Category = Electronics.
+print(df[(df["Price"]>10000) & (df["Category"]=="Electronics")])
+
+# 34.	Find customers where Age > 30 AND Gender = Female.
+print(df[(df["Age"]>30) & (df["Gender"]=="Female")])
+
+# 35.	Find orders where Quantity >= 2 AND Price > 2000.
+print(df[(df["Quantity"]>=2) & (df["Price"]>2000)])
+
+# 36.	Find orders where Order_Status = Delivered AND Payment_Mode = UPI.
+print(df[(df["Order_Status"]=="Delivered") & (df["Payment_Mode"]=="UPI")])
+
+# 37.	Find customers from Delhi AND Mumbai using the appropriate Pandas technique.
+print(df[df['City'].isin(["Mumbai","Delhi"])])
+
+# 38.	Find Electronics products with price between ₹5,000 and ₹30,000.
+print(df[(df['Category']=="Electronics") & (df['Price'].between(5000,30000))])
+
+#Level 7 — Slightly Advanced Filtering
+
+39.	Display all customers whose city is either Delhi, Mumbai, or Bangalore.
+print(df[df["City"].isin(["Mumbai","Delhi","Banglore"])])
+
+# 40.	Display all products whose category is Fashion or Electronics.
+print(df[df["Product"].isin(["Fashion","Electronics"])])
+
+# 41.	Find customers whose age is between 25 and 35.
+print(df[df["Age"].between(25,35)])
+
+# 42.	Find products whose price is between ₹2,000 and ₹10,000.
+print(df[df["Age"].between(2000,10000)])
+
+#43.	Find all orders that are not Delivered.
+print(df[df["Order_Status"]!="Delivered"])
+
+#44.	Find all customers whose payment mode is not Cash.
+print(df[df["Payment_Mode"]!="Cash"])
+
+#45.	Find all Female customers from Delhi or Mumbai.
+print(df[(df["Gender"]=="Female") & (df["City"].isin(["Delhi","Mumbai"]))])
