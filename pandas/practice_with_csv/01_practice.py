@@ -173,3 +173,17 @@ print(df[df["Payment_Mode"]!="Cash"])
 
 #45.	Find all Female customers from Delhi or Mumbai.
 print(df[(df["Gender"]=="Female") & (df["City"].isin(["Delhi","Mumbai"]))])
+# Level 8 — Business Questions
+
+# 46.	Which customers purchased products costing more than ₹20,000?
+print(df[df["Price"]>20000]["Customer_Name"])
+
+# 47.	Which orders have the highest quantity?
+print(df[df["Quantity"]==df["Quantity"].max()]["Order_ID"])
+
+
+# 48.	Which customers have Cancelled orders?
+print(df[df["Order_Status"]=="Cancelled"]["Customer_Name"])
+
+# 49.	Which Electronics products were ordered from Delhi?
+print(df[(df["City"]=="Delhi")&(df["Category"]=="Electronics")]["Product"])
