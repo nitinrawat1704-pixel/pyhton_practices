@@ -1,0 +1,106 @@
+Order_ID,Customer_Name,Gender,Age,City,Product,Category,Quantity,Price,Payment_Mode,Order_Status
+
+ORD001,Amit,Male,25,Delhi,Laptop,Electronics,1,55000,UPI,Delivered
+
+ORD002,Priya,Female,29,Mumbai,Smartphone,Electronics,2,22000,Credit Card,Delivered
+
+ORD003,Rahul,Male,34,Pune,Headphones,Electronics,1,2500,UPI,Delivered
+
+ORD004,Neha,Female,23,Delhi,Jeans,Fashion,2,1800,Debit Card,Delivered
+
+ORD005,Vikas,Male,41,Jaipur,Shoes,Fashion,1,3200,Cash,Cancelled
+
+ORD006,Anjali,Female,27,Chennai,Handbag,Fashion,1,2100,UPI,Delivered
+
+ORD007,Rohit,Male,31,Hyderabad,Smartwatch,Electronics,1,4500,Credit Card,Delivered
+
+ORD008,Pooja,Female,36,Bangalore,Dress,Fashion,2,2800,UPI,Shipped
+
+ORD009,Arjun,Male,22,Delhi,Keyboard,Electronics,1,1500,Debit Card,Delivered
+
+ORD010,Sneha,Female,30,Mumbai,Saree,Fashion,1,3500,Cash,Delivered
+
+ORD011,Karan,Male,28,Pune,Mouse,Electronics,2,900,UPI,Delivered
+
+ORD012,Riya,Female,25,Jaipur,Watch,Accessories,1,2800,Credit Card,Delivered
+
+ORD013,Manish,Male,39,Chennai,Television,Electronics,1,42000,Debit Card,Shipped
+
+ORD014,Kavita,Female,32,Delhi,Makeup,Cosmetics,3,1200,UPI,Delivered
+
+ORD015,Suresh,Male,45,Hyderabad,Refrigerator,Electronics,1,38000,Credit Card,Delivered
+
+ORD016,Meena,Female,26,Bangalore,Top,Fashion,3,900,UPI,Cancelled
+
+ORD017,Deepak,Male,33,Mumbai,Backpack,Accessories,1,1800,Cash,Delivered
+
+ORD018,Simran,Female,24,Pune,Sandals,Fashion,2,1600,Debit Card,Shipped
+
+ORD019,Nikhil,Male,29,Delhi,Tablet,Electronics,1,24000,UPI,Delivered
+
+ORD020,Swati,Female,38,Jaipur,Perfume,Cosmetics,2,2200,Credit Card,Delivered
+
+ORD021,Varun,Male,27,Chennai,T-Shirt,Fashion,4,700,UPI,Delivered
+
+ORD022,Isha,Female,31,Hyderabad,Earphones,Electronics,2,1400,Debit Card,Delivered
+
+ORD023,Mohit,Male,42,Bangalore,Office Chair,Furniture,1,8500,Credit Card,Shipped
+
+ORD024,Nisha,Female,28,Delhi,Curtains,Home,2,1900,UPI,Delivered
+
+ORD025,Akash,Male,35,Mumbai,Microwave,Electronics,1,9500,Cash,Delivered
+
+ORD026,Tanya,Female,22,Pune,Skirt,Fashion,2,1300,UPI,Delivered
+
+ORD027,Sameer,Male,37,Jaipur,Sunglasses,Accessories,1,2400,Credit Card,Cancelled
+
+ORD028,Divya,Female,26,Chennai,Hair Dryer,Electronics,1,3200,Debit Card,Delivered
+
+ORD029,Raj,Male,30,Delhi,Sofa,Furniture,1,25000,Credit Card,Shipped
+
+ORD030,Komal,Female,34,Hyderabad,Kitchen Set,Home,1,4500,UPI,Delivered
+
+ORD031,Ajay,Male,24,Bangalore,Power Bank,Electronics,2,1100,UPI,Delivered
+
+ORD032,Shalini,Female,40,Mumbai,Blanket,Home,2,1800,Cash,Delivered
+
+ORD033,Harish,Male,43,Pune,Printer,Electronics,1,12500,Credit Card,Cancelled
+
+ORD034,Preeti,Female,29,Delhi,Wallet,Accessories,2,900,UPI,Delivered
+
+ORD035,Sunil,Male,36,Jaipur,Formal Shirt,Fashion,2,1700,Debit Card,Delivered
+
+ORD036,Anu,Female,23,Chennai,Lipstick,Cosmetics,3,650,UPI,Shipped
+
+ORD037,Dev,Male,32,Hyderabad,Bluetooth Speaker,Electronics,1,3500,Credit Card,Delivered
+
+ORD038,Monika,Female,37,Bangalore,Table Lamp,Home,2,1200,Cash,Delivered
+
+ORD039,Abhishek,Male,26,Mumbai,Sports Shoes,Fashion,1,4200,UPI,Delivered
+
+ORD040,Payal,Female,33,Pune,Backpack,Accessories,1,2100,Debit Card,Cancelled
+
+ORD041,Ankit,Male,29,Delhi,Monitor,Electronics,1,15500,Credit Card,Delivered
+
+ORD042,Rekha,Female,44,Jaipur,Cooker,Home,1,2800,UPI,Delivered
+
+ORD043,Varsha,Female,27,Chennai,Jeans,Fashion,2,1900,Cash,Shipped
+
+ORD044,Prakash,Male,38,Hyderabad,Air Conditioner,Electronics,1,42000,Credit Card,Delivered
+
+ORD045,Geeta,Female,35,Bangalore,Handbag,Fashion,1,2500,UPI,Delivered
+
+ORD046,Manoj,Male,23,Mumbai,Keyboard,Electronics,2,1600,Debit Card,Delivered
+
+ORD047,Alka,Female,41,Pune,Dress,Fashion,1,3200,Credit Card,Cancelled
+
+ORD048,Ramesh,Male,46,Delhi,Refrigerator,Electronics,1,41000,UPI,Delivered
+
+ORD049,Sakshi,Female,24,Jaipur,Watch,Accessories,1,3000,Cash,Shipped
+
+ORD050,Anurag,Male,31,Chennai,Laptop,Electronics,1,62000,Credit Card,Delivered
+
+
+
+
+
