@@ -46,9 +46,9 @@ print(df)
 
 
 import numpy as np
-df["Customer_Type"]=np.where(df["Age"]<30,"Young","Adult")
+df["Customer_Type"]=np.where(df["Age"]<30,"Young","Adult")  #using numpy
 
-def c(a):
+def c(a):                                                    #using def
   if a<30:return "Young"
   else:return "Adult"
 
@@ -56,3 +56,71 @@ df["Customer_Type1"]=df["Age"].apply(c)
 
 
 print(df)
+
+# Level 3 — Remove Columns
+
+# 11.	Delete the Gender column.
+df=df.drop("Gender",axis=1) 
+
+# 12.	Delete the Payment_Mode column.
+df=df.drop("Payment_Mode",axis=1) 
+
+# 13.	Delete both Gender and Age.
+df=df.drop(["Gender","Age"],axis=1)
+
+# 14.	Delete Order_Status and Payment_Mode.
+df=df.drop(["Order_Status","Payment_Mode"],axis=1)
+
+# 15.	Create a new DataFrame without the Order_ID column.
+
+df.drop(["Order_ID column"],axis=1,inplace=True)
+
+print(df)
+
+# Level 4 — Filter Rows
+# 16.	Display customers whose Age is greater than 30.
+print(df[df["Age"]>30])
+
+# 17.	Display customers from Delhi.
+print(df[df["City"]=="Delhi"])
+
+# 18.	Display customers from Mumbai.
+print(df[df["City"]=="Mumbai"])
+
+# 19.	Display products whose Price is greater than ₹10,000.
+print(df[df["Price"]>10000])
+
+# 20.	Display orders where Quantity is greater than 2.
+print(df[df["Quantity"]>2])
+
+# 21.	Display all Female customers.
+print(df[df["Gender"]=="Female"])
+
+# 22.	Display all Male customers.
+print(df[df["Gender"]=="Male"])
+
+# 23.	Display orders having status Delivered.
+print(df[df["Order_Status"]=="Delivered"])
+
+# 24.	Display orders having status Cancelled.
+print(df[df["Order_Status"]=="Cancelled"])
+
+# 25.	Display orders paid using UPI.
+print(df[df["Payment_Mode"]=="UPI"])
+
+# Level 5 — Filter Rows + Columns
+
+# 26.	Display Customer_Name, Product, and Price for customers from Delhi.
+print(df[df["City"]=="Delhi"] [["Customer_Name","Product","Price"]])
+
+# 27.	Display Customer_Name, City, and Product where Age > 35.
+print(df[df["Age"]>35][["Customer_Name","City","Product"]])
+
+# 28.	Display Product, Quantity, and Price where Price > 5000.
+print(df[df["Price"]>5000][["Product","Quantity","Price"]])
+
+# 29.	Display Customer_Name, Product, and Order_Status for Cancelled orders.
+print(df[df["Order_Status"]=="Cancelled"][["Customer_Name","Product","Order_Status"]])
+
+# 30.	Display Customer_Name, Product, and Price for Female customers.
+print(df[df["Gender"]=="Female"][["Customer_Name","Product","Price"]])
