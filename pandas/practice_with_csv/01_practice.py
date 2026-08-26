@@ -189,4 +189,7 @@ print(df[df["Order_Status"]=="Cancelled"]["Customer_Name"])
 print(df[(df["City"]=="Delhi")&(df["Category"]=="Electronics")]["Product"])
 
 # 50. Which city has the highest total sales?
-print(df.groupby("City")["Price"].sum().head(1))
+df.groupby("City")["Price"].sum().sort_values(ascending=False).head(1)
+
+# 51. What is the average price of products in each category?
+df.groupby("Category")["Price"].mean()
