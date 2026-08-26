@@ -187,3 +187,6 @@ print(df[df["Order_Status"]=="Cancelled"]["Customer_Name"])
 
 # 49.	Which Electronics products were ordered from Delhi?
 print(df[(df["City"]=="Delhi")&(df["Category"]=="Electronics")]["Product"])
+
+# 50. Which city has the highest total sales?
+print(df.groupby("City")["Price"].sum().head(1))
