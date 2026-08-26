@@ -142,6 +142,7 @@ import pandas as pd
 df=pd.DataFrame(data)
 df.groupby("City")["Price"].sum().plot() #using group by
 
+df.pivot_table(values="Sales",index="City",columns="Gender",aggfunc="sum").plot() #using pivot table
 ------------------------------bar chart--------------------------------
 
 import matplotlib.pyplot as plt
